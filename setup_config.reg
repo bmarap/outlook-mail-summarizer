@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\OutlookMailSummarizer]
+"ApiUrl"="https://api.openai.com/v1/chat/completions"
+"ApiKey"="YOUR_API_KEY_HERE"
+"Model"="gpt-3.5-turbo"
+
+; If your organization requires locking this down, 
+; an Administrator can apply these same keys to:
+; [HKEY_LOCAL_MACHINE\Software\OutlookMailSummarizer]
+; Values in HKEY_LOCAL_MACHINE will override HKEY_CURRENT_USER.
